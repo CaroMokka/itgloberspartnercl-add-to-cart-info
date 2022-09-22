@@ -1,0 +1,69 @@
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container__itemImage{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__itemText{
+    width: 70%;
+    padding: 0 10px;
+}
+.container__summary{
+    background-color: #F1F2ED;
+    width: 100%;
+    padding: 0 20px;
+    font-size: large;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container__summary p:nth-child(2){
+    font-size: 25px;
+}
+.container__button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__buttonContinue,.container__buttonPay{
+    width: 90%;
+    height: 40px;
+    background-color: #d51920;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    text-align: center;
+    
+}
+.container__buttonContinue:hover{
+    background-color: black;
+}
+.container__buttonPay:hover{
+    background-color: black;
+}
+.container__buttonContinue a{
+    text-decoration: none;
+    color: #F1F2ED;
+    
+}
+.container__buttonPay a{
+    text-decoration: none;
+    color: #F1F2ED;
+    
+
+}
